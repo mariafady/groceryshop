@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity3">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="40dp"
+        android:text="Enter First Name"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="40dp"
+        android:text="Enter Last Name"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="40dp"
+        android:text="Phone Number"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="360dp"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="20dp"
+        android:text="SAVE" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="250dp"
+        android:text="BACK" />
+
+
+
+
+</RelativeLayout>

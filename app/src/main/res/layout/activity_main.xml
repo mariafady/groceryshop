@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:background="@drawable/background"
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayoutCompat">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="40dp"
+        android:text="WElCOME TO GROCERY SHOPPING APP"
+        android:textColor="@color/purple_200"
+        android:layout_alignParentStart="true"
+
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:text="Enter Username"
+
+        />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:text="Enter Password"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="340dp"
+        android:text="SIGN IN"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="340dp"
+        android:text="SIGN UP"
+        android:textSize="20dp"
+        />
+
+
+
+</RelativeLayout>
